@@ -16,13 +16,18 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v6
+        with:
+          gradle-version: 'current'
+          cache-provider: 'basic'
+
       - name: Build Debug APK
-        run: |
-          chmod +x gradlew
-          ./gradlew assembleDebug
+        run: gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: GlassWidgets-APK
           path: app/build/outputs/apk/debug/app-debug.apk
+
