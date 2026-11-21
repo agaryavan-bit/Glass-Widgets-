@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GlassWidgets</string>
+    <string name="widget_slot_2x2_label">Glass 2x2</string>
+    <string name="widget_slot_2x2_desc">Liquid Glass Square Widget (840 Presets)</string>
+    <string name="widget_slot_4x1_label">Glass 4x1</string>
+    <string name="widget_slot_4x1_desc">Liquid Glass Pill / Bar Widget (840 Presets)</string>
+    <string name="widget_slot_4x2_label">Glass 4x2</string>
+    <string name="widget_slot_4x2_desc">Liquid Glass Medium Card Widget (840 Presets)</string>
+    <string name="widget_slot_4x4_label">Glass 4x4</string>
+    <string name="widget_slot_4x4_desc">Liquid Glass Large Dashboard Widget (840 Presets)</string>
+    <string name="config_activity_title">Customize Glass Widget</string>
+    <string name="search_placeholder">Search 840 glass presets…</string>
+    <string name="how_to_add_title">How to Add Widgets</string>
+    <string name="ambient_sound_on">Ambient glass sound on</string>
+    <string name="ambient_sound_off">Ambient glass sound muted</string>
+    <string name="apply_to_home_screen">Apply to Widget</string>
+    <string name="pin_to_home_screen">Pin to Home Screen</string>
+</resources>

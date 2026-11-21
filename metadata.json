@@ -1,0 +1,6 @@
+{
+  "name": "GlassWidgets",
+  "description": "Liquid Glass home screen widget pack with 840 data-driven presets across 28 categories, customizable frosted glass aesthetics, and Jetpack Glance widgets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
